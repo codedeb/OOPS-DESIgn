@@ -15,6 +15,6 @@ def quicksort(nums):
 
     return quicksort(nums_less_pivot) + [pivot]  +  quicksort(nums_gt_pivot)
 
-obj = quicksort([3,2,6,5,2,4])
+obj = quicksort([3,2,6,5,2,4,1,1,1,1])
 
 print(obj)
