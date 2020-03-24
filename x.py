@@ -26,7 +26,7 @@ def Sentance(sentence):
     sentence = sentence.split()
     for word in sentence:
         yield word
-my_sentence = Sentence('This is a Test')
+my_sentence = Sentence('This is a Test 2')
 
 for word in my_sentence:
     print(word)
